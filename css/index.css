@@ -1,0 +1,115 @@
+#mine {
+    margin: 20px auto;
+}
+
+#mine .level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#mine .level button {
+    padding: 5px 15px;
+    background: #02a4ad;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+#mine .level button.active {
+    background: #00abff;
+}
+
+#mine table {
+    border-spacing: 1px;
+    background: #929196;
+    margin: 0 auto;
+}
+
+#mine td {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#mine td.mine {
+    background: #d9d9d9 url(../img/mine.png) no-repeat center;
+    background-size: cover;
+    /* z-index: 1000; */
+}
+
+#mine td.flag{
+    background: #d9d9d9 url(../img/flag.png) no-repeat center;
+    background-size: cover;
+}
+
+#mine td.zero {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+}
+
+#mine td.one {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #0332fe;
+}
+
+#mine td.two {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #019f02;
+}
+
+#mine td.three {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff2600;
+}
+
+#mine td.four {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #93208f;
+}
+
+#mine td.five {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff7f29;
+}
+
+#mine td.six {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff3fff;
+}
+
+#mine td.seven {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #3fffbf;
+}
+
+#mine td.eight {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #22ee0f;
+}
+
+#mine .info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#mine .mine {
+    background: #d9d9d9 url(../img/mine.png) no-repeat center;
+    background-size: cover;
+    z-index: 1000;
+}
